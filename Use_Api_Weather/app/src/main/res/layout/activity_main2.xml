@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Main2Activity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="   서울 대기질 정보"
+        android:textSize="30dp"
+        android:background="@drawable/border"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="230dp"
+            android:layout_height="75dp"
+            android:text="이산화질소 농도\n  (ppm)"
+            android:textSize="25dp"
+            android:gravity="center_horizontal"/>
+        <TextView android:id="@+id/o2n"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:gravity="center_horizontal"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="230dp"
+            android:layout_height="75dp"
+            android:text="오존              농도\n  (ppm)"
+            android:textSize="25dp"
+            android:gravity="center_horizontal"/>
+        <TextView android:id="@+id/o3"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:gravity="center_horizontal"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="230dp"
+            android:layout_height="75dp"
+            android:text="일산화탄소 농도\n  (ppm)"
+            android:textSize="25dp"
+            android:gravity="center_horizontal"/>
+        <TextView android:id="@+id/co"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:gravity="center_horizontal"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="230dp"
+            android:layout_height="75dp"
+            android:text="이황산가스 농도\n  (ppm)"
+            android:textSize="25dp"
+            android:gravity="center_horizontal"/>
+        <TextView android:id="@+id/so2"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:gravity="center_horizontal"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="230dp"
+            android:layout_height="75dp"
+            android:text="미세먼지\n  (㎍/m³)"
+            android:textSize="25dp"
+            android:gravity="center_horizontal"/>
+        <TextView android:id="@+id/pm10"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:gravity="center_horizontal"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="230dp"
+            android:layout_height="75dp"
+            android:text="초미세먼지\n  (㎍/m³)"
+            android:textSize="25dp"
+            android:gravity="center_horizontal"/>
+        <TextView android:id="@+id/pm25"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:gravity="center_horizontal"/>
+    </LinearLayout>
+
+</LinearLayout>
